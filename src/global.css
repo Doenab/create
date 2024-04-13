@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre+ExtraBold:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-text: Inter;
+  --font-abhaya-libre-extrabold: "Abhaya Libre ExtraBold";
+  --font-hammersmith-one: "Hammersmith One";
+  --font-istok-web: "Istok Web";
+
+  /* font sizes */
+  --presets-body2-size: 16px;
+  --body-text-size: 20px;
+  --subheading-size: 24px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-silver: #c7c6c6;
+
+  /* Spacing */
+  --spacing-xs: 8px;
+  --spacing-m: 48px;
+
+  /* Border radiuses */
+  --br-smi: 13px;
+  --br-9xs: 4px;
+  --br-xl: 20px;
+}

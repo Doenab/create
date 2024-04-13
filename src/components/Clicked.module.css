@@ -1,0 +1,148 @@
+.clickedChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-smi);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.searchAnyImage {
+  position: absolute;
+  height: 6.32%;
+  width: 39.34%;
+  top: 7.97%;
+  left: 30.33%;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.clickedItem {
+  position: absolute;
+  height: 75%;
+  width: 86.89%;
+  top: 20.88%;
+  right: 6.56%;
+  bottom: 4.12%;
+  left: 6.56%;
+  border-radius: 9px;
+  background-color: #efefef;
+  border: 1px dashed #7a7676;
+  box-sizing: border-box;
+}
+.vectorIcon {
+  position: absolute;
+  height: 8.65%;
+  width: 8.61%;
+  top: 41.48%;
+  right: 69.81%;
+  bottom: 49.86%;
+  left: 21.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.clickedInner,
+.divider {
+  position: absolute;
+  box-sizing: border-box;
+}
+.divider {
+  height: 0.27%;
+  width: 74.04%;
+  top: 69.92%;
+  right: 12.98%;
+  bottom: 29.81%;
+  left: 12.98%;
+  border-top: 1px solid #7d7c7c;
+}
+.clickedInner {
+  height: 9.62%;
+  width: 52.73%;
+  top: 80.77%;
+  right: 37.16%;
+  bottom: 9.62%;
+  left: 10.11%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver);
+}
+.pasteImageLink {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-istok-web);
+  font-size: var(--font-size-xs);
+  background-color: transparent;
+  position: absolute;
+  height: 4.67%;
+  width: 37.43%;
+  top: 83.24%;
+  left: 15.85%;
+  color: #676666;
+  text-align: left;
+  display: inline-block;
+}
+.searchInsideChild {
+  cursor: pointer;
+  border: 1px solid var(--color-silver);
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+}
+.search {
+  position: absolute;
+  height: 48.57%;
+  width: 51.2%;
+  top: 25.71%;
+  left: 24.4%;
+  display: inline-block; 
+  cursor:pointer; 
+}
+.search:hover{
+  opacity: 0.5; 
+}
+.searchInside {
+  position: absolute;
+  height: 9.62%;
+  width: 25.08%;
+  top: 80.77%;
+  right: 9.34%;
+  bottom: 9.62%;
+  left: 65.57%;
+  font-size: var(--font-size-xs);
+  color: #279560;
+  font-family: var(--font-istok-web);
+}
+.frameInput {
+  position: absolute;
+  top: 158px;
+  left: 130px;
+  background-color: transparent;
+  width: 206px;
+  height: 34px;
+  overflow: hidden;
+}
+.clicked {
+  width: 366px;
+  position: relative;
+  height: 364px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--presets-body2-size);
+  color: #717070;
+  font-family: var(--body-text);
+}
